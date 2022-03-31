@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      /* header styling */
+      #top {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+      #top button {
+        background-color: #e95857;
+        color: white;
+        border-radius: 20px;
+        padding: 5px;
+      }
+      /* navbar styling */
+      #navbar {
+        background-color: #e95857;
+      }
+      #navbar ol {
+        display: flex;
+        list-style-type: none;
+      }
+      ol li {
+        flex-grow: 0.5;
+      }
+      #navbar ol li:first-child {
+        flex-grow: 7;
+      }
+      #navbar ol li {
+        line-height: 70px;
+      }
+      #logo {
+        vertical-align: middle;
+      }
+      /* section styling */
+      #parent {
+        position: relative;
+      }
+      #section-top-img {
+        width: 100%;
+      }
+      #img-content {
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        width: 30%;
+        color: white;
+      }
+      #img-content h1 {
+        font-size: 3rem;
+      }
+      #img-content button {
+        color: white;
+        background: transparent;
+        margin-top: 20px;
+        padding: 10px 30px 10px 30px;
+      }
+
+
+
+/* inline block contiainer */
+#iblock-container{
+  padding-top: 30px;
+  width: 70%;
+  margin: auto;
+}
+#iblock1 {
+  display: flex;
+  justify-content: space-between;
+}
+#right-i-block{
+  width: 40%;
+}
+#iblock-box{
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+}
+.ibox{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+}
+.ibox h1{
+  color: white;
+  padding: 25px 0px 0px 20px;
+  font-size: xx-large;
+}
+.ibox h2{
+  color: white;
+  text-align: center;
+  font-size: 2.5em;
+  padding-top: 40px;
+}
+#circle{
+  border: 4px solid white;
+    height: 70px;
+    width: 70px;
+    border-radius: 70px;
+    position: relative;
+    top: 45px;
+    left: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#triangle1{
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-top: 0;
+    border-left: 26px solid transparent;
+    border-right: 26px solid transparent;
+    border-bottom: 53px solid black;
+    right: 4px;
+}
+
+#triangle{
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-top: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 59px solid white;
+    right: 0;
+}
+
+
+
+#square{
+  background-color: black;
+  border: 4px solid white;
+  height: 50px;
+  width: 50px;
+  position: relative ;
+  top: 50px;
+  left: 235px;
+}
+
+#paragraph{
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  gap: 40px;
+  margin-top: 40px;
+  text-align: justify;
+}
+
+
+
+      /* bottom img styling */
+      #parent1 {
+        position: relative;
+      }
+      #bottom-img {
+        width: 100%;
+      }
+      #img1-content {
+        position: absolute;
+        color: white;
+        width: 30%;
+        right: 5%;
+        top: 50%;
+      }
+      #img1-content h1 {
+        font-size: xx-large;
+        text-align: right;
+      }
+      #img1-content h2 {
+        font-size: 1.8rem;
+        text-align: right;
+      }
+      #img1-content p{
+          text-align: right;
+      }
+      #img1-content button {
+        background: transparent;
+        margin-top: 10px;
+        background-color: white;
+        color: black;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        position: absolute;
+        left: 64%;
+      }
+      /* footer styling */
+#footer{
+    padding: 30px;
+    margin-left: 10%;
+}
+    </style>
+  </head>
+  <body>
+    <div id="top">
+      <button>Some Content Here</button> <span>How to live in mars</span>
+    </div>
+    <nav id="navbar">
+      <ol>
+        <li><img id="logo" src="logo.PNG" alt="" /></li>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Services</li>
+        <li>Faq's</li>
+        <li>Proviacnes</li>
+      </ol>
+    </nav>
+    <section>
+      <div id="parent">
+        <img id="section-top-img" src="top img.jpg" alt="" />
+      </div>
+      <div id="img-content">
+        <h1>Serving You</h1>
+        <h1>Since 1989.</h1>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+        <button id="content-button">Shop Here</button>
+      </div>
+
+      <!-- inline block styling -->
+
+      <div id="iblock-container">
+        <div id="iblock1">
+          <div id="left-i-block"><h5>ways to support</h5>
+            <h1>Support Acme Outdoors.</h1></div>
+          <div id="right-i-block"><h4><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores facilis consequatur perspiciatis maiores nobis</p></h4></div>
+        </div>
+        <div id="iblock-box">
+          <div class="ibox">
+            <h1>01</h1>
+            <h2>SHOP PRODUCTS</h2>
+            <div id="circle"></div>
+          </div>
+          <div class="ibox"> <h1>02</h1>
+          <h2>DONATE</h2>
+          <div id="triangle"></div>
+          <div id="triangle1"></div>
+        </div>
+          
+          <div class="ibox">
+            <h1>03</h1>
+            <h2>BUY GIFT CARDS</h2>
+            <div id="square"></div>
+          </div>
+        </div>
+        <div id="paragraph">
+          <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id voluptatem laboriosam possimus unde tenetur accusantium excepturi corrupti tempora nam esse autem culpa aut totam, nemo voluptate? Repellendus ipsa nemo odio.</p></div>
+          <div><p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro blanditiis commodi perspiciatis minima iste libero ab quae officia! Vitae quibusdam dignissimos nesciunt id accusamus odio eveniet doloremque eaque dolores laboriosam.</p></div>
+          <div><p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate eius neque quia aspernatur, magni sapiente magnam sunt ratione nostrum molestiae nesciunt eaque consectetur reprehenderit sequi omnis ipsum quas a. Quas.</p></div>
+        </div>
+      </div>
+      
+<br><br><br>
+
+
+
+
+
+
+
+      <div id="parent1">
+        <img id="bottom-img" src="middle img.jpg" alt="" />
+        <div id="img1-content">
+          <h1>How We are keeping you</h1>
+          <h2>Safe during COVID-19</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur <p>Autem, adipisicing
+                neque error quas</p> <p>nostrum reprehenderit at,</p> 
+          </p>
+          <button>How Can I Help You</button>
+        </div>
+      </div>
+    </section>
+    <footer>
+        <div id="footer">
+            <h5>Some One Is Here</h5>
+            <h1>OPEN 24/07/365.</h1>
+        </div>
+    </footer>
+
+
+  </body>
+</html>
